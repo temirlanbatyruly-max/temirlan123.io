@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            min-height: 100vh;
+            background-color: rgb(97, 97, 97);
+        }
+        .iconwall {
+            width: 80px;
+            background-color: rgb(84, 84, 84);
+            display: flex;
+            flex-direction: column;
+            padding: 20px 0;
+            top: 0;
+        }
+        .shetki {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            flex-flow: 1;
+        }
+        .shetki > img {
+            width: 30px;
+            height: 30px;
+            margin: 15px 0;
+        }
+        .ishki {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            margin: 50px 0;
+        }
+        .ishki > img {
+            width: 25px;
+            height: 25px;
+        }
+        .container {
+            flex-grow: 1;
+            padding: 20px;
+        }
+        .poisk {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: white;
+            border-radius: 30px;
+            padding: 5px 10px;
+        }
+        .poisk input {
+            border: none;
+            padding: 8px 10px;
+            border-radius: 25px;
+            width: 100%;
+            font-size: 15px;
+        }
+        .poisk img {
+            width: 20px;
+            height: 20px;
+        }
+        .suretter {
+            display: grid;
+            grid-template-columns: repeat(6 , 1fr);
+            grid-template-rows: repeat(5, 250px);
+            gap: 10px;
+            width: 100%;
+        }
+        .gridpicture {
+            width: 100%;
+            overflow: hidden;
+            background-color: white;
+            border-radius: 10px;
+        } 
+        .gridpicture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="iconwall">
+        <div class="shetki">
+            <img src="Pinterest-Logo.png" alt="">
+
+            <div class="ishki">
+                <img src="icons/Home icon.png" alt="">
+                <img src="icons/explore icon.png" alt="">
+                <img src="icons/boards icon.png" alt="">
+                <img src="icons/create icon.png" alt="">
+                <img src="icons/notifications icon.png" alt="">
+                <img src="icons/message icon.png" alt="">
+
+            </div>
+            <img src="icons/settings icon.png" alt="">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="poisk">
+            <img src="icons/search icon.jpg" alt="">
+            <input type="text" placeholder="Поиск">
+        </div>
+
+        <div class="suretter">
+            <div class="gridpicture"><img src="Pinterest 1.jpeg" alt=""></div>
+            <div class="gridpicture"><img src="Pinterest 2.jpeg" alt=""></div>
+            <div class="gridpicture"><img src="Pinterest 3.jpeg" alt=""></div>
+            <div class="gridpicture"><img src="Pinterest 4.jpg" alt=""></div>
+            <div class="gridpicture"><img src="Pinterest 5.jpeg" alt=""></div>
+            <div class="gridpicture"><img src="Pinterest 6.jpeg" alt=""></div>
+            
+            <div class="gridpicture"><img src="Pinterest 7.jpeg" alt=""></div>
+            <div class="gridpicture"><img src="Pinterest 8.jpeg" alt=""></div>
+            <div class="gridpicture"><img src="Pinterest 9" alt=""></div>
+            <div class="gridpicture"><img src="Pinterest 10.jpg" alt=""></div>
+            <div class="gridpicture"><img src="Pinterest 11.webp" alt=""></div>
+            <div class="gridpicture"><img src="Pinterest 12.jpg" alt=""></div>
+
+            <div class="gridpicture"><img src="Pinterest 13.jpg""></div>
+            <div class="gridpicture"><img src="Pinterest 14.jpg" alt=""></div>
+            <div class="gridpicture"><img src="Pinterest 15.jpg" alt=""></div>
+            <div class="gridpicture"><img src="Pinterest 16.jpg" alt=""></div>
+            <div class="gridpicture"><img src="Pinterest 17.jpg" alt=""></div>
+            <div class="gridpicture"><img src="Pinterest 18.jpeg" alt=""></div>
+
+            <div class="gridpicture"><img src="Pinterest 19.jpeg" alt=""></div>
+            <div class="gridpicture"><img src="Pinterest 20.jpg" alt=""></div>
+            <div class="gridpicture"><img src="Pinterest 22.jpg" alt=""></div>
+            <div class="gridpicture"><img src="Pinterest 23.jpg" alt=""></div>
+            <div class="gridpicture"><img src="Pinterest 24.jpeg" alt=""></div>
+            <div class="gridpicture"><img src="Pinterest 25.jpg" alt=""></div>
+
+            <div class="gridpicture"><img src="Pinterest 26.jpg" alt=""></div>
+            <div class="gridpicture"><img src="pINTEREST 27.jpg" alt=""></div>
+            <div class="gridpicture"><img src="Pinterest 28.jpg" alt=""></div>
+            <div class="gridpicture"><img src="Pinterest 29.jpg" alt=""></div>
+            <div class="gridpicture"><img src="Pinterest 30.jpg" alt=""></div>
+            <div class="gridpicture"><img src="Pinterest 21.jpeg" alt=""></div>
+        </div>
+    </div>
+</body>
+</html>
